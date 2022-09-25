@@ -1,0 +1,14 @@
+[
+	{
+		"TC03": {
+			"FirstName": "Aditya",
+			"LastName": "Roy",
+			"Phone": "7848484848",
+			"Email": "test@gmail.com",
+			"City": "Texas",
+			"Country": "UNITED STATES",
+			"UserName": "adi@test",
+			"Password": "test123"
+		}
+	}
+]

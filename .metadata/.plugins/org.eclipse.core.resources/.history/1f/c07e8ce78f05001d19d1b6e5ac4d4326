@@ -1,0 +1,36 @@
+package com.package1;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadData {
+	
+	public void readDataFromExcel() {
+		try {
+			File file = new File("\\Example\\Files\\test.xlsx");
+			FileInputStream f = new FileInputStream(file);
+			XSSFWorkbook workbook = new XSSFWorkbook(f);
+			XSSFSheet sheet = workbook.getSheet("First");
+			XSSFRow row = sheet.getRow(1);
+			XSSFCell cell1;
+		
+			cell1= row.getCell(1);
+			System.out.println(cell1.getStringCellValue());	
+		}
+		
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	public static void main(String args[]) {
+		ReadData r = new ReadData();
+		r.readDataFromExcel();
+	}
+}

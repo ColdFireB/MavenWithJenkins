@@ -1,0 +1,9 @@
+package com.basicPrograms;
+
+public class FactorialPrograms {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

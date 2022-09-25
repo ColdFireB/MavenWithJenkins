@@ -1,0 +1,56 @@
+package com.basicPrograms;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class OddorEven {
+
+	public static void findOddOrEven_GivenNum() {
+		System.out.println("Enter a number u want to find out whether odd or even---");
+
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+
+		if (num % 2 == 0) {
+			System.out.println("Its Even number!!!");
+		} else {
+			System.out.println("Its Odd Number!!!");
+		}
+	}
+
+	public static void findOddOrEven_BetweenNumbers() {
+		System.out.println("Enter the limit upto which the odd or even numbers can be find out");
+
+		Scanner s = new Scanner(System.in);
+		int num = s.nextInt();
+
+		List<Integer> odd = new ArrayList<Integer>();
+		List<Integer> even = new ArrayList<Integer>();
+
+		for (int i = 0; i <= num; i++) {
+			if (i % 2 == 0) {
+				even.add(i);
+			} else {
+				odd.add(i);
+			}
+		}
+
+		System.out.println("The Odd numbers are :   " + odd);
+		System.out.println("The even numbers are:   " + even);
+
+	}
+	
+	public static void sumOftheInputNumbers() {
+		System.out.println("How many numbers you want to enter : ");
+		Scanner s = new Scanner(System.in);
+		
+		int num = 
+		
+	}
+
+	public static void main(String[] args) {
+		findOddOrEven_BetweenNumbers();
+	}
+
+}

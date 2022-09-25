@@ -1,0 +1,50 @@
+
+public class test {
+	
+	public static void countMatches(String a[], String b[]) {
+		int count;
+		for(int i =0; i<a.length; i++) {
+			count = 1;
+			for(int j=0; j<b.length; j++) {
+				if(a[i].equals(b[j])) {
+					count++;
+				}
+			}
+			if(count>1) {
+				System.out.println("Repeating word is: " + a[i] + "and the repeating count is" + count);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		String str = "this is a test this is not a test test is a bug that can not be repeated as bug ever and never";
+
+		String test[] = str.split(" ");
+		int len = test.length;
+		int count;
+		int sizeOfdups = 0;
+		
+		
+		for (int i = 0; i < len; i++) {
+			count = 1;
+			for (int j = i+1; j < len; j++) {
+				if (test[i].equals(test[j])) {
+					count++;
+					test[j] = "0";
+				}
+			}
+			if(count>1 && test[i]!="0") {
+				System.out.println(test[i]);
+				//s.add(test[i]);
+				sizeOfdups = test[i].length();
+			}
+		}
+		//System.out.println(s);
+		String uniq[] = new String[sizeOfdups];
+		System.out.println(uniq);
+		//countMatches(s, test);
+	
+		countMatches(uniq, test);
+	}
+	
+}

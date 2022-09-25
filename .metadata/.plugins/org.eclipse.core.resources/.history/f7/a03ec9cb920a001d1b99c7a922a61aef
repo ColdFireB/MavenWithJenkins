@@ -1,0 +1,22 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		String str = "this is a test this is not a test";
+
+		String test[] = str.split(" ");
+		int len = test.length;
+
+
+		for (int i = 0; i < len; i++) {
+			//count =1;
+			for (int j = i+1; j < len; j++) {
+				if (test[i].equals(test[j])) {
+					//System.out.println(count);
+					System.out.println(test[i]);
+				}
+			}
+		}
+
+	}
+}

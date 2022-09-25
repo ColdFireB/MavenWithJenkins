@@ -1,0 +1,20 @@
+package manipulateStrings;
+
+import java.util.StringTokenizer;
+
+public class countWordsUsingStringTokenizer{
+	
+	String s1 = "How many words will count this sentence be possible";
+	
+	
+	public static int countWordsUsingStringTokenizer(String inputString) {
+
+	    if (!inputString.isEmpty()) {
+	        StringTokenizer stringTokenizer = new StringTokenizer(inputString); // create StringTokenizer using the
+	                                                                            // inputString
+
+	        return stringTokenizer.countTokens(); // returning the number of tokens i.e. number of words
+	    }
+	    return 0;
+}
+}

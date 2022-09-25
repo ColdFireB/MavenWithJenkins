@@ -1,0 +1,21 @@
+package com.basicPrograms;
+
+import java.util.Scanner;
+
+public class FactorialPrograms {
+
+	public static void main(String[] args) {
+		
+		int num, fact;
+		
+		Scanner s = new Scanner(System.in);
+		num = s.nextInt();
+		
+		for(int i=1; i<=num;i++) {
+			
+		}
+		
+		
+	}
+
+}

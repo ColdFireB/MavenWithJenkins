@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\eclipse-workspace\StringPrograms"/>
+			<item value="D:\eclipse-workspace\bingo3"/>
+			<item value="D:\eclipse-workspace"/>
+			<item value="D:\eclipse-workspace\new"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.sample.cucumber"/>
+			<item value="com.ravsoft.selenium"/>
+			<item value="org.cucumberpractise"/>
+			<item value="org.practice"/>
+			<item value="com.ravsoft"/>
+			<item value="org.sele"/>
+			<item value="om.sivaya"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="simpleCucumberProject"/>
+			<item value="seleniumPractices"/>
+			<item value="PracticeCucumber"/>
+			<item value="bingo1"/>
+			<item value="bingo"/>
+			<item value="awesomecucumber"/>
+			<item value="practice1"/>
+			<item value="practice"/>
+			<item value="projCucumber"/>
+			<item value="bingoBDDProject"/>
+			<item value="testCucumberProject1"/>
+			<item value="testCucumberProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="443"/>
+		<item key="y" value="10"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.MathPrograms"/>
+			<item value="Example"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MathPrograms"/>
+			<item value="Example"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,9 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		String s = "i was attending attending java selenium selenium interview";
+		String output = "i was attending java selenium interview";
+	}
+
+}
