@@ -1,6 +1,7 @@
 package SortDatas;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortNumbersUsingArraySort {
 
@@ -8,6 +9,8 @@ public class SortNumbersUsingArraySort {
 		Integer arr[] = { 69, 78, 21, 36, 11, 77, 00, 02, 870 };
 
 		Arrays.sort(arr);
+		
+		Arrays.sort(arr, Collections.reverseOrder());
 
 		for (int a : arr) {
 			System.out.println(a);

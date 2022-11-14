@@ -23,7 +23,6 @@ public class CheckAnagram {
 		char[] secondStringCharArray = secondString.toLowerCase().toCharArray();
 		Arrays.sort(firstStringCharArray);
 		Arrays.sort(secondStringCharArray);
-
 		return Arrays.equals(firstStringCharArray, secondStringCharArray);
 
 	}

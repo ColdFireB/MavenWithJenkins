@@ -13,6 +13,12 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\eclipse-workspace\StringPrograms"/>
+			<item value="D:\eclipse-workspace\PracticalPrograms"/>
+			<item value="D:\eclipse-workspace\RegularExpressions"/>
+			<item value="D:\eclipse-workspace\Sample cucumber Projects from Github\cucumber-master"/>
+			<item value="D:\eclipse-workspace\Sample cucumber Projects from Github\Cucumber-BDD-Automation-Framework-master"/>
+			<item value="D:\eclipse-workspace\Sample cucumber Projects from Github\cucumber-java-skeleton-main"/>
 			<item value="D:\eclipse-workspace\Protractor-TypeScript-Framework-master\Protractor-TypeScript-Framework-master"/>
 			<item value="D:\eclipse-workspace\bingo3"/>
 			<item value="D:\eclipse-workspace\awesomecucumber"/>
@@ -38,5 +44,13 @@
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="580"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="375"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>
