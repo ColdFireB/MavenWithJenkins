@@ -7,7 +7,7 @@ public class PolyndromeString {
 
 	public static void main(String[] args) {
 
-		String inputString = "madam";
+		String inputString = "Bingo";
 		String reversedString = reverseString(inputString);
 
 		if (inputString.equals(reversedString)) {
@@ -15,6 +15,9 @@ public class PolyndromeString {
 		} else {
 			System.out.println("The inputString '" + inputString + "' is not a palindrome String.");
 		}
+		
+		
+		System.out.println(reverseStringusingBuilder(inputString));
 	}
 
 	// a method t reverse the string
@@ -28,5 +31,16 @@ public class PolyndromeString {
 
 		return reversedString;
 	}
+	
+	public static String reverseStringusingBuilder(String str) {
+		
+		StringBuilder s = new StringBuilder(str);
+		
+		s.reverse();
+		
+		return s.toString();
+		
+	}
+	
 
 }

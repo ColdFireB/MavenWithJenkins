@@ -48,6 +48,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.bala.automation"/>
 			<item value="com.sample.cucumber"/>
 			<item value="com.ravsoft.selenium"/>
 			<item value="org.cucumberpractise"/>
@@ -59,6 +60,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="restassured"/>
 			<item value="simpleCucumberProject"/>
 			<item value="seleniumPractices"/>
 			<item value="PracticeCucumber"/>

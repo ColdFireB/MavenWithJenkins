@@ -22,6 +22,7 @@ public class HandleMultipleDropDown {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get("URL");
+		driver.getPageSource();
 
 		WebElement noOfEmpDrop = driver.findElement(By.xpath("//select[@id=Form_submitForm_NoOfEmployees]"));
 		WebElement industryDrop = driver.findElement(By.xpath("//select[@id='Form_submitform_Industry']"));

@@ -15,7 +15,7 @@ public class SimpleRegex2 {
 		boolean b2 = Pattern.compile(".s").matcher("as").matches();
 
 		// 3rd way
-		boolean b3 = Pattern.matches("a.", "as");
+		boolean b3 = Pattern.matches(".s", "as");
 
 		System.out.println(b + " " + b2 + " " + b3);
 	}
